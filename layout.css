@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+    width: 70%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+.hero {
+    background-image: url(https://png.pngtree.com/background/20230517/original/pngtree-large-alpine-range-with-trees-and-mountains-at-sunset-picture-image_2639786.jpg);
+    width: 1281px;
+    height: 400px;
+    /* text-align: center; */
+    text-decoration: wavy;
+    margin-bottom: 100px;
+    font-size: 24px;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color:antiquewhite
+}
+.Choose{
+    font-size: 20px;
+    text-align: center;
+    background-color: #65a0a0;
+}
+.box1{
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    height: 125px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #de9685;
+    margin-bottom: 150px;
+}
+.box2{
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    height: 125px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #8496d6;
+    margin-bottom: 150px;
+}
+.box3{
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    height: 125px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #80a18a;
+    margin-bottom: 150px;
+}
+.box4{
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    height: 125px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #ee6b6b;
+    margin-bottom: 150px;
+}
+.clear{
+    clear: both; 
+}
+.gallery{
+    text-align: center;
+    margin-top: 160px;
+    font-size: 20px;
+    background-color: #9f6e8e;
+    
+}
+.pic{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.pic2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.pic3{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.pic4{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.pic5{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.clear2{
+    clear: both;
+}
+.highlight{
+    color: darkblue;
+    font-size: 24px;
+    margin-top: 200px;
+}
+.footer,p{
+    text-align: center;
+}
